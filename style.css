@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://tse4.mm.bing.net/th/id/OIP.hZJ0of9k-xX5t9ZN5rtUnQHaFw?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 70vh;
+    width: 50vw;
+    background-color: rgba(15, 4, 4, 0.56);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.container h1{
+    color: rgb(241, 160, 10);
+    margin-top: 20px;
+    font-size: 2.8rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.container p{
+    color: white;
+    text-align: center;
+    margin: 2px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 85%;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgba(73, 63, 63, 0.786);
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.button{
+    width: 10%;
+    height: 45px;
+    background-color: rgb(241, 160, 10);
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+.flex2{
+    display: flex;
+    background-color: rgba(17, 5, 5, 0.56);
+    width: 95%;
+    margin: 20px;
+    border-radius: 15px;
+    height: 250px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img1{
+    height:250px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+#place{
+    font-size: 3rem;
+    color: rgb(241, 160, 10);
+}
+.flex3{
+    display: grid; 
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+    width: 97%;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    height: 250px;
+}
+.parts{
+    background-color: rgba(17, 5, 5, 0.56);
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+    font-size: 1.5rem;
+    color: rgb(241, 160, 10);
+}
+.temp2,.temp3,.temp4{
+    font-size: 1.3rem;
+    color: white;
+}

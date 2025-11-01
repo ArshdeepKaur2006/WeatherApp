@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="container">
+            <h1>Weather Explorer</h1>
+            <p>Stay updated with the latest weather conditions</p>
+            <div class="flex1">
+                <input type="text" class="input">
+                <button class="button">Search</button>
+            </div>
+            <div class="flex2">
+                <div id="img1"></div>
+                <div id="info">
+                    <h3 id="place"></h3>
+                    <p>Temperature:<span id="temp"></span>&deg;C</p>
+                    <p id="condn"></p>
+                </div>
+            </div>
+            <div class="flex3">
+                <div class="parts">
+                    <div class="day day1"></div>
+                    <div class="img2"></div>
+                    <div class="temp2"></div>
+                </div>
+                <div class="parts">
+                    <div class="day day2"></div>
+                    <div class="img3"></div>
+                    <div class="temp3"></div>
+                </div>
+                <div class="parts">
+                    <div class="day day3"></div>
+                    <div class="img4"></div>
+                    <div class="temp4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- <i class="fa-solid fa-sun"></i>
+<i class="fa-solid fa-cloud-sun"></i>
+<i class="fa-solid fa-cloud"></i>
+<i class="fa-solid fa-cloud-sun-rain"></i>
+<i class="fa-solid fa-cloud-showers-heavy"></i> -->
